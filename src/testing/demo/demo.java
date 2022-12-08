@@ -11,9 +11,9 @@ public class demo {
 		String[] arr = {"nap", "teachers", "cheaters", "PAN", "ear", "era", "hectares"};
 		Map<String,String> map= new HashMap<String,String>();
 		for(int i=0;i<arr.length;i++){
-			char[] key=arr[i].toUpperCase().toCharArray();
+			char[] key=arr[i].toLowerCase().toCharArray();
 			Arrays.sort(key);
-			map.put(new String (key), arr[i]);
+			map.put(new String(key), arr[i]);
 		}
 		System.out.println(map.values());
 	}

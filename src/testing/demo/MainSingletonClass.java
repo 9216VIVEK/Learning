@@ -14,9 +14,11 @@ public class MainSingletonClass {
 		System.out.println(sc.getName());
 		System.out.println(sc2.getName());
 		System.out.println(sc3.getName());
+		System.out.println(sc.hashCode());
 		sc3.setName("Ravi");
 		System.out.println(sc4.getName());
 		System.out.println(sc5.getName());
+		System.out.println(sc.hashCode());
 
 	}
 }
